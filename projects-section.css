@@ -1,0 +1,101 @@
+.our-projects {
+  font-family: "Gilroy-Bold", sans-serif;
+  color: white;
+  background-color: #93cadf;
+  position: relative;
+}
+
+.title-projects {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+  font-size: 95px;
+  text-align: left;
+}
+
+.our-projects {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.card {
+  width: 30%;
+  text-align: center;
+}
+
+.card img {
+  position: relative;
+  margin-top: 115px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card h3,
+.card h4 {
+  margin: 10px 0;
+}
+
+.projects-description {
+  color: black;
+  font-size: 25px;
+}
+
+.arrow {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 990px;
+}
+
+.pages button {
+  margin: 0 5px;
+}
+
+.material-icons-outlined:hover {
+  background-color: rgb(172, 171, 171);
+}
+
+.material-icons-outlined {
+  width: 25px;
+  height: 25px;
+  color: black;
+  font-family: "Material Symbols Outlined";
+  font-size: 20px;
+  font-weight: bold;
+  outline: 7px solid white;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.forward-button {
+  margin-left: 25px;
+}
+
+.back-button,
+.forward-button {
+  cursor: pointer;
+}
+
+.text-container h1 {
+    margin-top: 70px;
+        font-size: 60px;
+      color: #ffffff;
+      z-index: 2;
+      position: relative;
+    }
+    
